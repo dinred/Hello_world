@@ -3,6 +3,7 @@
     "id": 1,
     "name": "first thing",
     "birthday": "09/18",
+    "age":18,
     "status": true,
     "isEdit": false,
     "isNew": false
@@ -11,6 +12,7 @@
     "id": 3,
     "name": "three thing",
     "birthday": "05/-5",
+    "age": 19,
     "status": false,
     "isEdit": false,
     "isNew": false
@@ -19,6 +21,7 @@
     "id": 4,
     "name": "four thing",
     "birthday": "10/18",
+    "age": 20,
     "status": false,
     "isEdit": false,
     "isNew": false
@@ -27,6 +30,7 @@
     "id": 5,
     "name": "five thing",
     "birthday": "11/11",
+    "age": 21,
     "status": false,
     "isEdit": false,
     "isNew": false

@@ -32,13 +32,6 @@ export default {
   data: () => ({
     list: [],
   }),
-  async mounted() {
-    const res = await axios.get("/resource/users.json");
-    // this.$bus.emit('sign1', "can u see me")
-    this.list = res.data;
-    console.log("bus emit");
-    console.log(this.list);
-    this.$bus.emit("sign1", this.list);
-  },
+  
 };
 </script>

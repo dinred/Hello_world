@@ -90,8 +90,7 @@ export default {
       // axios.get('/resource/users.json').then(res => {
       //   this.list = res.data
       // })
-      const res = await axi
-      os.get('/resource/users.json')
+      const res = await axios.get('/resource/users.json')
       this.list = res.data
     },
     createData() {
